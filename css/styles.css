@@ -1,0 +1,201 @@
+:root {
+    --primary-text-color:#212121;
+    --text-color:#757575;
+    --accent-text-color:#2196f3;
+    --backround-color: #ffffff;
+    --foter-color: rgba(255, 255, 255, 0.6);
+    --button-backround: #F5F4FA;
+}
+
+body {
+  background-color: var(--backround-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+}
+
+/* Header */
+.logo {
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.web-studio-logo {
+  color: var(--accent-text-color);
+}
+.studio-logo {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+      color: var(--accent-text-color);
+}
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+.email-link {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+}
+
+.email-link:hover,
+.email-link:focus {
+  color: var(--accent-text-color);
+}
+.phone-link {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--accent-text-color);
+}
+
+
+/* Hero */
+.hero {
+    background-color: #2F303A;;
+    text-align: center;
+}
+.hero-title {
+    color: var(--backround-color);
+    font-style: 400;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+.hero .link {
+    color: var(--backround-color);
+}
+
+
+/* Feature */
+.features-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em
+}
+.features-text {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Work and Team*/
+.work-title,
+.team-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .position {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.team-member {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+/* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.studio-logo-footer {
+    color: var(--backround-color);
+}
+
+.address {
+    color: var(--backround-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer .email,
+.footer .tel {
+    color: var(--foter-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+/* Button */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--backround-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.76;
+    letter-spacing: 0.06em;
+}
+.button.primary {
+    color: var(--backround-color);
+    background-color: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.76;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.button.nav {
+color: var(--primary-text-color) ;
+background-color: var(--button-backround);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+.button.nav:hover,
+.button.nav:focus {
+    color: var(--backround-color);
+    background-color: var(--accent-text-color);
+}
+.projects h2 {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
